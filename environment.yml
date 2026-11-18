@@ -1,0 +1,24 @@
+name: diopsis-ai
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - pillow
+  - pyyaml
+  - graphviz
+  - python-graphviz
+  - pyqt
+  - requests
+  - beautifulsoup4
+  - pip:
+      - influxdb-client
+      - reactivex
