@@ -22,3 +22,4 @@ dependencies:
   - pip:
       - influxdb-client
       - reactivex
+      - python-dotenv
