@@ -36,6 +36,7 @@ The project currently uses the following technologies and libraries:
 | PyYAML | YAML configuration handling |
 | Requests & BeautifulSoup4 | HTTP requests and HTML parsing |
 | Graphviz | Graph visualization |
+| Python-dotenv | Environment variable and API token management |
 
 The complete dependency list is maintained in `environment.yml`.
 
@@ -51,7 +52,10 @@ diopsis-ai/
 ├── src/                # Source code
 ├── models/             # Trained models
 |
-├── environment.yml     # Conda environment configuration
+├── .env                # Local API tokens and credentials (not tracked by Git)
+├── .env.example        # Example environment variables (no actual secrets)
+|
+├── environment.yml
 ├── .gitignore
 └── README.md
 ```
