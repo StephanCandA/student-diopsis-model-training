@@ -24,7 +24,7 @@ The project currently uses the following technologies and libraries:
 
 | Technology / Library | Purpose |
 |---|---|
-| Python 3.11 | Main programming language |
+| Python 3.13 | Main programming language |
 | Conda | Environment and dependency management |
 | NumPy | Numerical computations |
 | Pandas | Data manipulation and analysis |
