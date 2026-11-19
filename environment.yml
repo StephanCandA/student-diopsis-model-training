@@ -1,9 +1,8 @@
 name: diopsis-ai
 channels:
   - conda-forge
-  - defaults
 dependencies:
-  - python=3.13
+  - python=3.12
   - pip
   - numpy
   - pandas
@@ -16,7 +15,6 @@ dependencies:
   - pyyaml
   - graphviz
   - python-graphviz
-  - pyqt
   - requests
   - beautifulsoup4
   - pip:
